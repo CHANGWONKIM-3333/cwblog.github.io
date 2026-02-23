@@ -1,4 +1,4 @@
-baseURL = "http://cwblog.github.io/"
+baseURL = "https://changwonkim-3333.github.io/cwblog.github.io/"
 languageCode = "ko-kr"
 title = "cwblog"
 theme = "PaperMod"
