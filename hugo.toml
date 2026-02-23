@@ -1,0 +1,7 @@
+baseURL = "http://cwblog.github.io/"
+languageCode = "ko-kr"
+title = "cwblog"
+theme = "PaperMod"
+
+[params]
+  author = "Changwon Kim"
