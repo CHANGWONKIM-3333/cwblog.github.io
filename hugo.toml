@@ -5,3 +5,29 @@ theme = "PaperMod"
 
 [params]
   author = "Changwon Kim"
+
+[menu]
+  [[menu.main]]
+    name = "Research"
+    url  = "/research/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Engineering"
+    url  = "/engineering/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Projects"
+    url  = "/projects/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Foundations"
+    url  = "/foundations/"
+    weight = 40
+
+  [[menu.main]]
+    name = "About"
+    url  = "/about/"
+    weight = 50

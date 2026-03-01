@@ -1,0 +1,14 @@
+<nav aria-label="breadcrumb">
+  <ol>
+    <li><a href="{{ "/" | relURL }}">Home</a></li>
+
+    {{/* Ancestors: current page의 상위 섹션들 */}}
+    {{ range .Ancestors.Reverse }}
+      {{ if ne .RelPermalink ("/" | relURL) }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    {{ end }}
+
+    <li aria-current="page">{{ .Title }}</li>
+  </ol>
+</nav>
